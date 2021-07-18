@@ -1,0 +1,48 @@
+ <div class="parallax1">
+                <div class="container">
+                    <h1>SERVICES</h1>
+                    <h4>WE OFFER THE FOLLOWING SERVICES AT SWIFTEC</h4>
+                <div class="box">
+                    <h2>WEB DEVELOPMENT & DESIGN</h2>
+                   
+                    <p>In such a technologically advanced era, it only makes sence to market your product or 
+                        service via the internet. Nowadays people are constantly browsing on their phones for approximatly
+                        six hours a day if not more. So imagine these people going through your website, even just for a fruction
+                        of their time. This means that you have the power and avenue to influence and sell your brand. I know you get 
+                        me, you need a website.</p>
+                        <p> But still having a website isn't the thing, coz trust me, the're hundreds of other
+                        enterprenures out here who also own websites. My point? you need to stand out. You need a quality,
+                        fully functioning, responsive website. The SWIFTEC team is more than happy to see you scale the hights of the limitless potential
+                        you posess by building you the website you deserve. We build custom websites from scratch according to the customers 
+                        spesifications. 
+                        </p>
+                    </div>
+                    <div class="box">
+                    <h2>GRAPHIC DESIGN</h2>
+                    <p>Graphic deisign is the organisation and presentation of information developed through a creative process for a particular 
+                        function. We'll provide you with the best layout for your website to ensure that no important detail is left out of the picture.
+                        An eloquent logo ,likewise, will help your brand speak for itself. At SWIFTEC we provide you 
+                        with an option of several well designed logos. We ensure clarity of the logo and how appealing it 
+                        looks to the eye. A good logo is one that is most relative to the agenda of the relative company.
+                        We also give advise to help you select the most suitable logo for your company.
+                    </p>
+                    </div>
+                    <div class="box">
+                    <h2>PHOTOGRAPHY WITH IMAGE EDDITING</h2>
+                    <p>
+                        Complementary to the logos and everything else pictures and videos play a big role in advertising.
+                        So it's really as they say that a picture speaks a thousand words. This is really an indespencible
+                        part of your website. Here's where SWIFTEC chips in to offer quality photography relative to your site 
+                        and product. We could come and take pictures to be used, if you'd like us to. Alternatively you could send
+                        pictures you'd like us to use on the website. 
+                    </p>
+                   </div>
+                   <div class="box">
+                    <h2>CONSOLTANCY SERVICES</h2>
+                    <p>
+                        So, with knowledge comes power & with power you get limitless potential. Here at SWIFTEC  we're happy
+                        to offer advise concerning web development, web design and everything relative. Go ahead, ask us.
+                    </p>
+                    </div>
+                </div>
+            </div>

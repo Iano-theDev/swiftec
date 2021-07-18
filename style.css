@@ -1,0 +1,389 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background: white;
+    background-size: cover;
+    background-position: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*global*/
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 2s ease-in-out;
+    color: white;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    color: white;
+    font-size: 18px;
+    margin bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background: red;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.hilight {
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    font-size: px;
+}
+
+.logo {
+    height: 70px;
+    width: ;
+    margin-top: ;
+}
+
+.button1 {
+    height: 35px;
+    background: rgb(255, 0, 0);
+    border: rgb(255, 0, 0);
+    border-radius: 0px 15px 0px 15px;
+    color: rgb(255, 255, 255);
+    font-style: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.5)), url(BG1.jpg);
+    /* Set a specific height */
+    height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0)), url(.jpg);
+    /* Set a specific height */
+    height: 900px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+/*header*/
+
+header {
+    background: rgba(0, 0, 0, 0.788);
+    color: #d6d6d6;
+    padding-top: px;
+    min-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    width: 100%;
+    top: 0;
+    padding: px;
+    z-index: 1;
+    border-bottom: .75px solid rgb(105, 105, 105);
+}
+
+
+/*header shrink effect*/
+
+@media (min-width: 992px) .header .shrink {
+    height: 60px;
+    line-height: 60px;
+}
+
+header a {
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: bold;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 25px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin: 20px;
+}
+
+header #logo {
+    float: left;
+    margin-bottom: 0;
+}
+
+header a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 10px;
+    border: 5px solid red;
+    background-color: rgb(255, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0px 15px 0px 15px;
+    overflow: hidden;
+}
+
+#showcase1 {
+    color: rgb(255, 255, 255);
+    min-height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.5)), url(contactimage1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#showcase1 h4 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 90px;
+}
+
+#showcase1 h2 {
+    color: rgb(252, 252, 252);
+    font-size: 70px;
+    float: left;
+    text-align: center;
+}
+
+
+/*quote*/
+
+#quote {
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    min-height: 70px;
+}
+
+
+/*newsletter*/
+
+#newsletter {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(BG1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90px;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+}
+
+#newsletter h1 {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 25px;
+}
+
+#newsletter form input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    borderrgb(0, 255, 170);
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 20px;
+}
+
+#newsletter .button1:hover {
+    color: white;
+    background: rgb(94, 94, 94);
+}
+
+
+/*homearticle*/
+
+#homearticle {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(235, 235, 235);
+    min-height: 400px;
+}
+
+#homearticle #maincol {
+    float: left;
+    width: 65%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#homearticle #sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    background: rgb(214, 213, 213);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    border: rgb(201, 201, 201) 1px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#homearticle #sidebar h3 {
+    color: black;
+}
+
+#homearticle #sidebar h3:hover {
+    color: rgb(250, 250, 250);
+}
+
+
+/*socials*/
+
+#socials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(socials5.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#socials a {
+    position: relative;
+    text-decoration: none;
+}
+
+#socials li {
+    display: inline;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+#socials ul {
+    float: center;
+}
+
+
+/*showcase2 / services*/
+
+#showcase2 {
+    color: rgb(0, 0, 0);
+    min-height: 950px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding-top: px;
+}
+
+#showcase2 .organise li {
+    display: inline;
+    margin: 30%;
+}
+
+#showcase2 .organise img {
+    float: left;
+    height: 350px;
+    width: 550px;
+}
+
+#showcase2 .organise p {
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+/*about*/
+
+#about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(photog.jpg);
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#about img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#about #aboutcontact li {
+    display: inline;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#about #aboutcontact img {
+    width: 60px;
+    border-radius: none;
+}
+
+#contacts {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(contactimage4.jpg);
+    background-size: cover;
+    background-position: center;
+    float: center;
+    color: #fff;
+    height: 700px;
+    padding-top: 90px;
+}
